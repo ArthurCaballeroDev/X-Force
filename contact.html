@@ -35,7 +35,45 @@
           </nav>
     </head>
     <body>
-    
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <form class="d-flex flex-column justify-content-center">
+        <div class="form-group col-md-6">
+          <label for="Nom" required>Votre Nom</label>
+          <input type="nom" class="form-control" id="nom" placeholder="Brock">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="Prénom" required>Votre Prénom</label>
+          <input type="prenom" class="form-control" id="prenom" placeholder="Eddie">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="téléphone">Votre téléphone</label>
+          <input type="telephone" class="form-control" id="telephone" placeholder="0102030405">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="mail" required>Votre E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="eddie.brock@example.com">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="sujet" required>Sujet</label>
+          <select class="form-control" id="sujet">
+            <option>Demande d'information</option>
+            <option>Nous soutenir</option>
+            <option>Autre motif</option>
+          </select>
+        </div>
+        <div class="form-group col-md-12">
+          <label for="message" required>Votre Message</label>
+          <textarea class="form-control" id="message" rows="3">Merci d'écrire votre message ici</textarea>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <p class="text-center mt-auto "><a href="contact.html" class="btn btn-danger btn-lg" type="submit">Envoyer</a></p>
+      </div>
+    </div>
+      </form>
+      </body>
     </body>
     <footer>
       <div class="container-fluid site-footer">
